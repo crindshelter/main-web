@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container > h1 {
+    margin-bottom: 25px;
+}
+
+.container {
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #616161;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.text-form, input {
+    text-align: center;
+    border-radius: 50px;
+}
+
+#text-box {
+    border: 1.5px solid black;
+    padding: 2px;
+}
+
+#my-submit {
+    padding: 5px 20px;
+    border-radius: 25px;
+    background: none;
+    border: 2px solid rgb(115, 139, 160);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    
+}
+
+#my-submit:hover {
+    background-color: rgb(115, 139, 160);
+    color: aliceblue;
+    transform: translateY(-5px);
+}
+
+#my-submit:active {
+    background-color: aliceblue;
+    color: black;
+}
